@@ -5,6 +5,10 @@ body {
 	font-size: 16px;
 }
 
+.padding10 {
+	padding: 10px;
+}
+
 .padding {
 	padding: 20px;
 }
