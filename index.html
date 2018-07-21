@@ -1,0 +1,160 @@
+<html lang="en-en"  class="uk-height-1-1 uk-notouch">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Cripto Fighter</title>
+    <link rel="stylesheet" href="uikit/css/uikit.min.css"/>
+    <link rel="stylesheet" href="uikit/css/components/progress.min.css"/>
+    <link rel="stylesheet" href="uikit/css/components/accordion.min.css"/>
+    <link href="https://fonts.googleapis.com/css?family=Germania+One:400,700" rel="stylesheet">
+
+
+    <link rel="stylesheet" href="assets/css/custom.css"/>
+
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="uikit/js/uikit.min.js"></script>
+    <script src="uikit/js/components/accordion.min.js"></script>
+    <script src="uikit/js/core/dropdown.min.js"></script>
+    <script src="uikit/js/core/cover.min.js"></script>
+
+    <script src="assets/js/custom.js"></script>
+</head>
+
+<body id="top">
+
+    <div class="uk-container uk-container-center ">
+
+        <nav class="uk-navbar ">
+            <a class="uk-navbar-brand uk-hidden-small" href="#top">CriptoFighter</a>
+            <ul class="uk-navbar-nav uk-hidden-small uk-align-right">
+
+                <li>
+                    <a href="#faq">FAQ</a>
+                </li>
+                <li>
+                    <a href="#disclaimer">Disclaimer</a>
+                </li>
+                <li>
+                    <a href="#about">About</a>
+                </li>
+                <li class="uk-parent" data-uk-dropdown>
+                    <a href="#currency">CURRENCY:</a>
+                    <div class="uk-dropdown uk-dropdown-navbar">
+                        <ul class="uk-nav uk-nav-dropdown" >
+                            <li><a href="" id="btc"><img src="" alt="">Bitcoin</a></li>
+                            <li><a href="" id="eth"><img src="" alt="">Ethereum</a></li>
+                            <li><a href="" id="ltc"><img src="" alt="">Litecoin</a></li>
+                            <li><a href="" id="mon"><img src="" alt="">Monero</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="disabled">
+                    <a class="current-currency"><b>LITECOIN</b></a>
+                </li>
+            </ul>
+            <a href="#offcanvas" class="uk-navbar-toggle uk-visible-small" data-uk-offcanvas=""></a>
+            <div class="uk-navbar-brand uk-navbar-center uk-visible-small">CriptoFighter</div>
+        </nav>
+
+        <div class="uk-text-center ">
+            <div class="uk-container-center uk-clearfix">
+                <div class="uk-grid uk-grid-small ">
+
+                    <div class="uk-width-1-1 absolute">
+                        <div class="clock uk-margin-top">
+                            <p>Fight ends in </p>
+
+                            <p id="countdown" class="uk-h1"> 00:00:00</p>
+
+                        </div>
+                        <div class="current-bet">
+                            <p>Current bet at: </p>
+                            <p id="current-bet" class="uk-h2"><span id="current-currency">Litoshi</span> 5000 </p>
+                        </div>
+                    </div>
+                </div></div></div>
+                <!-- Fighters -->
+                <div class="bg uk-cover-background padding">  
+                    <div class="uk-text-center ">
+                        <div class="uk-container-center uk-clearfix">
+                            <div class="uk-grid uk-grid-large ">
+                                <div class=" uk-width-1-2">
+                                    <div>
+                                        <img class="fighter" src="assets/img/Fighters/01.png" alt="fighter">
+                                        <div class="uk-progress uk-progress-danger">
+                                            <div class="uk-progress-bar" style="width: 40%;"></div>
+                                        </div>
+                                    </div>
+                                    <a href="" title="" target="_blank" class="uk-button uk-button-large uk-width-1-1 padding"><b class="uk-h2">Bet!</b></a>
+                                    <p>Tickets: <span id="tickets">2</span></p>
+                                    <p>Total: </span><span id="current-currency">Litoshi</span><span id="bet-amount"> 5000</span></p>
+                                </div>
+
+                                <div class=" uk-width-1-2">
+                                    <div>
+                                        <img class="fighter" src="assets/img/Fighters/02.png" alt="fighter">
+                                        <div class="uk-progress uk-progress-danger">
+                                            <div class="uk-progress-bar" style="width: 40%;"></div>
+                                        </div>
+                                    </div>
+                                    <a href="" title="" target="_blank" class="uk-button uk-button-large uk-width-1-1 padding"><b class="uk-h2">Bet!</b></a>
+                                    <p>Tickets: <span id="tickets">-</span></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+<br><br>
+<div class="uk-container uk-container-center ">
+    <div class="uk-margin-large-top">
+
+        <div class="uk-accordion" data-uk-accordion>
+            <h3 id="faq" class="uk-accordion-title">FAQ</h3>
+            <div class="uk-accordion-content" >
+                <h3 >Lorem</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium officiis facilis, labore vero ipsam, natus error fugiat facere est unde libero, ipsum esse laborum id modi illum. Atque, quia, numquam.</p>
+
+                <h3 >Lorem</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium officiis facilis, labore vero ipsam, natus error fugiat facere est unde libero, ipsum esse laborum id modi illum. Atque, quia, numquam.</p>
+                <h3 >Lorem</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium officiis facilis, labore vero ipsam, natus error fugiat facere est unde libero, ipsum esse laborum id modi illum. Atque, quia, numquam.</p>
+            </div>
+            <h3 id="disclaimer" class="uk-accordion-title">Disclaimer</h3>
+            <div class="uk-accordion-content" >
+                <h3 >Lorem</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium officiis facilis, labore vero ipsam, natus error fugiat facere est unde libero, ipsum esse laborum id modi illum. Atque, quia, numquam.</p>
+
+                <h3 >Lorem</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium officiis facilis, labore vero ipsam, natus error fugiat facere est unde libero, ipsum esse laborum id modi illum. Atque, quia, numquam.</p>
+                <h3 >Lorem</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium officiis facilis, labore vero ipsam, natus error fugiat facere est unde libero, ipsum esse laborum id modi illum. Atque, quia, numquam.</p>
+            </div>
+            <h3 id="about" class="uk-accordion-title">About</h3>
+            <div class="uk-accordion-content" >
+                <h3 >Lorem</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium officiis facilis, labore vero ipsam, natus error fugiat facere est unde libero, ipsum esse laborum id modi illum. Atque, quia, numquam.</p>
+
+                <h3 >Lorem</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium officiis facilis, labore vero ipsam, natus error fugiat facere est unde libero, ipsum esse laborum id modi illum. Atque, quia, numquam.</p>
+                <h3 >Lorem</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium officiis facilis, labore vero ipsam, natus error fugiat facere est unde libero, ipsum esse laborum id modi illum. Atque, quia, numquam.</p>
+            </div>
+
+        </div>
+
+
+
+        <div class="dk-footer uk-text-center">
+            <p class="dk-padding"></p>
+        </div>
+
+    </div>
+</div>
+</body>
+</html>
+

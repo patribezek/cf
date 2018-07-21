@@ -1,0 +1,42 @@
+body {
+	background-color: #1d1d1d;
+	color: #d4d4d4;
+	font-family: 'Germania One', sans-serif;
+	font-size: 16px;
+}
+
+.padding {
+	padding: 20px;
+}
+
+.uk-align-right {
+	margin-bottom: 0;
+}
+
+.uk-navbar, 
+.uk-button {
+    background-color: #ffeb00;
+}
+
+.fighter {
+	width: 400px;
+	height: auto;
+}
+
+.bg {
+	background-image: url(../img/bg/bg04.gif);
+	overflow: hidden;
+}
+
+.uk-cover-background {
+	background-position: 0 -150px;
+}
+
+.absolute {
+	position: absolute;
+	text-align: center;
+	left: 50%;
+	background-color: #00000099;
+	max-width: 200px;
+	transform: translateX(-50%);
+}
