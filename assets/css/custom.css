@@ -18,7 +18,8 @@ body {
 }
 
 .uk-navbar, 
-.uk-button {
+.uk-button,
+.uk-accordion-title {
     background-color: #ffeb00;
 }
 
